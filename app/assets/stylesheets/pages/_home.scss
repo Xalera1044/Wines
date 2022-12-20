@@ -1,1 +1,96 @@
-// Specific CSS for your home-page
+.main {
+  position: relative;
+  width: 1440px;
+  height: 4600px;
+  background-color: white;
+}
+
+.banner {
+  background-size: cover !important;
+  background-position: center;
+  padding: 150px 0;
+  position: absolute;
+  width: 1440px;
+  height: 976px;
+  left: 0px;
+  top: 0px;
+  background: url(1.jpg);
+}
+
+.banner h1 {
+  position: absolute;
+  width: 766px;
+  height: 187px;
+  left: 33px;
+  top: 232px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 187px;
+  color: white;
+}
+
+.banner p {
+  position: absolute;
+  width: 778px;
+  height: 212px;
+  left: 32px;
+  top: 449px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px !important;
+  line-height: 53px;
+  letter-spacing: 0.05em;
+  color: white !important;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.gift-box p {
+  position: absolute;
+  width: 248px;
+  height: 53px;
+  left: 596px;
+
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px !important;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-decoration: underline 2px;
+
+  color: #000000;
+}
+
+// .elips {
+//   position: absolute;
+//   width: 179px;
+//   height: 179px;
+//   left: 810px;
+//   top: 1114px;
+
+//   background: #FFFFFF;
+//   transform: rotate(-180deg);
+// }
+
+.second {
+  position: absolute;
+  width: 1440px;
+  height: 1328px;
+  left: 0px;
+  top: 1024px;
+
+  background: #FFFFFF;
+}
