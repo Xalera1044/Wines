@@ -26,7 +26,7 @@
 
   font-family: 'Playfair Display';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 140px;
   line-height: 187px;
   color: white;
@@ -60,30 +60,31 @@
   width: 248px;
   height: 53px;
   left: 596px;
+  top: 56px;
 
 
   font-family: 'Playfair Display';
   font-style: normal;
-  font-weight: 700;
+  line-height: 100%;
+  font-weight: 300;
   font-size: 40px !important;
   line-height: 53px;
   text-align: center;
   letter-spacing: 0.01em;
-  text-decoration: underline 2px;
+  text-decoration: underline 2px !important;
 
   color: #000000;
 }
 
-// .elips {
-//   position: absolute;
-//   width: 179px;
-//   height: 179px;
-//   left: 810px;
-//   top: 1114px;
+.elips {
+  position: absolute;
+  width: 166px;
+  height: 90.2px;
+  left: 631px;
+  top: 935px;
 
-//   background: #FFFFFF;
-//   transform: rotate(-180deg);
-// }
+  background: url(6.png);
+}
 
 .second {
   position: absolute;
@@ -93,4 +94,174 @@
   top: 1024px;
 
   background: #FFFFFF;
+}
+
+.card-1 {
+  position: absolute;
+  width: 320px !important;
+  height: 360px;
+  left: 32px;
+  top: 176px;
+}
+
+.card-2 {
+  position: absolute;
+  width: 320px !important;
+  height: 360px;
+  left: 384px;
+  top: 176px;
+}
+
+.card-3 {
+  position: absolute;
+  width: 320px !important;
+  height: 360px;
+  left: 736px;
+  top: 176px;
+}
+
+.card-4 {
+  position: absolute;
+  width: 320px !important;
+  height: 360px;
+  left: 1088px;
+  top: 176px;
+}
+
+.card-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.card-text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.card-img-top {
+  height: 284.21px;
+  border-bottom: 1px solid;
+  width: 320px !important;
+}
+
+.card-body {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  height: 75.79px;
+  width: 320px;
+}
+
+.card {
+  border: none;
+}
+
+.banner-low {
+  background: url(3.jpeg);
+  position: absolute;
+  width: 1376px !important;
+  height: 624px !important;
+  left: 32px !important;
+  top: 704px !important;
+  // background-size: cover !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 53.6% 70%;
+  border-radius: 14px;
+}
+
+.banner-low h1 {
+  position: absolute;
+  height: 107px;
+  left: 723px;
+  top: 101px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  // font-weight: 700px !important;
+  font-size: 68px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-decoration: underline 3px !important;
+
+  color: #FFFFFF;
+}
+
+.banner-low p {
+  position: absolute;
+  width: 672px;
+  height: 156px;
+  left: 723px;
+  top: 250px;
+
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 173.3%;
+  /* or 52px */
+
+  letter-spacing: 0.01em;
+
+  color: #FFFFFF;
+}
+
+.banner .btn {
+  position: absolute;
+  width: 380.5px;
+  height: 80px;
+  left: 33px;
+  top: 744px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  --bs-btn-hover-bg: #6c757d26;
+
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
+}
+
+.arrow {
+  position: absolute;
+  width: 73.5px;
+  height: 12px;
+  left: 377px;
+  top: 780px;
+
+  background: url(4.png);
+}
+
+.bottles {
+  position: absolute;
+  width: 607px;
+  height: 877px;
+  left: 813px;
+  top: 176px;
+}
+
+.arrow-down {
+  position: absolute;
+  width: 12px;
+  height: 67.1px;
+  left: 715px;
+  top: 952px;
+  background: url(7.png);
 }
