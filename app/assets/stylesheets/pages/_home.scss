@@ -1,3 +1,12 @@
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+    width:300px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 .main {
   position: relative;
   width: 1440px;
